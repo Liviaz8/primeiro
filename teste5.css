@@ -1,0 +1,108 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+header img{
+    background-color: #f96;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .logo {
+    width: 100px; /* Ajuste conforme necessário */
+    border-radius: 50%; /* Para deixar a imagem arredondada */
+    margin-right: 20px;
+}
+
+.top-bar nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.top-bar nav ul li {
+    margin-right: 10px;
+
+}
+
+.top-bar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.top-bar nav ul li a:hover {
+    background-color: #fff;
+
+}
+
+.main-nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.courses {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.courses ul {
+    list-style-type: none;
+}
+
+.courses ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
